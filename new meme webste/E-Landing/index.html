@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Landing </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="E LANDING logo pack/E landing logo 5.png"></a>
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>  
+                <ul>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#Contact us">CONTACT US</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+            <h1> Here, When You Need A New Start</h1>
+                <p>
+                    We bring you a quality and mulitfunction to your site<br> 
+                    So you can focuse on what goes on in your buissness
+                    we focuse on showing your buissness for what it can bring 
+                </p>
+                <a href="" class="hero-btn"> Book Now</a>
+    </div>    
+    </section>
+    <section class="course">
+        <h1> Types Of Services we offer</h1>
+        <p> beard,cuts,dying hair.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3> Beards</h3>
+                <p> We offer a quallity finish on your beard with optional oils and creams
+                to make you feel relaxed like you never left home </p>   
+            </div>
+            <div class="course-col">
+                <h3> Cuts</h3>
+                <p> We offer a quallity finish on your beard with optional oils and creams
+                to make you feel relaxed like you never left home </p>   
+            </div>
+            <div class="course-col">
+                <h3> Beauty and dyeing</h3>
+                <p> We offer a quallity finish on your beard with optional oils and creams
+                to make you feel relaxed like you never left home </p>   
+            </div>
+        </div>
+    
+    </section>
+    <section class="footer">
+        <Footer>
+            
+        </Footer>
+    </section>
+
+
+
+
+    <!--------JavaScript for toggle Menu-------->
+    <script>
+        var navbar = document.getElementById("navbar")
+        
+        function showMenu(){
+            navbar.style.right = "0";
+        }
+        function hideMenu(){
+            navbar.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
